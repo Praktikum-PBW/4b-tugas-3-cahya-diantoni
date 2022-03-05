@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Table | Cahya Diantoni</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="datatable/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" href="datatable/css/jquery.dataTables.css">
+    <style>
+      th{
+        background-color: rgb(79, 238, 238);
+      }
+    </style>
+</head>
+<body>
+
+
+  <table id="tabel-data" class="display" width="100%" cellspacing="0" border="1">
+        <thead>
+            <tr>
+                <th rowspan="2">NPM</th>
+                <th rowspan="2">Nama Lengkap</th>
+                <th colspan="10">Absen</th>
+                <th colspan="10">Tugas</th>
+                <th rowspan="2">UTS</th>
+                <th rowspan="2">UAS</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+                <th>8</th>
+                <th>9</th>
+                <th>10</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2010631170012</td>
+                <td>Iqbal Kurniawan</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>A</td>
+                <td>A</td>
+                <td>H</td>
+                <td>H</td>
+                <td>H</td>
+                <td>100</td>
+                <td>90</td>
+                <td>85</td>
+                <td>70</td>
+                <td>100</td>
+                <td>85</td>
+                <td>90</td>
+                <td>100</td>
+                <td>60</td>
+                <td>100</td>
+                <td>75</td>
+                <td>100</td>
+            </tr>
+            <tr>
+              <td>2010631170013</td>
+              <td>Irfan Maulana</td>
+              <td>H</td>
+              <td>H</td>
+              <td>H</td>
+              <td>H</td>
+              <td>H</td>
+              <td>A</td>
+              <td>H</td>
+              <td>H</td>
+              <td>H</td>
+              <td>A</td>
+              <td>90</td>
+              <td>95</td>
+              <td>85</td>
+              <td>70</td>
+              <td>95</td>
+              <td>85</td>
+              <td>70</td>
+              <td>100</td>
+              <td>80</td>
+              <td>100</td>
+              <td>85</td>
+              <td>90</td>
+          </tr>
+          <tr>
+            <td>2010631170060</td>
+            <td>Cahya Diantoni</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>H</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+            <td>100</td>
+        </tr>
+        <tr>
+          <td>2010631170066</td>
+          <td>Iqbal Kurniawan</td>
+          <td>H</td>
+          <td>A</td>
+          <td>H</td>
+          <td>H</td>
+          <td>H</td>
+          <td>H</td>
+          <td>H</td>
+          <td>H</td>
+          <td>H</td>
+          <td>H</td>
+          <td>85</td>
+          <td>90</td>
+          <td>85</td>
+          <td>90</td>
+          <td>90</td>
+          <td>85</td>
+          <td>90</td>
+          <td>100</td>
+          <td>60</td>
+          <td>70</td>
+          <td>85</td>
+          <td>90</td>
+      </tr>
+      <tr>
+        <td>2010631170009</td>
+        <td>Fathimatuz Zahra</td>
+        <td>H</td>
+        <td>H</td>
+        <td>H</td>
+        <td>H</td>
+        <td>H</td>
+        <td>H</td>
+        <td>H</td>
+        <td>H</td>
+        <td>H</td>
+        <td>H</td>
+        <td>100</td>
+        <td>90</td>
+        <td>85</td>
+        <td>80</td>
+        <td>90</td>
+        <td>95</td>
+        <td>90</td>
+        <td>80</td>
+        <td>60</td>
+        <td>100</td>
+        <td>90</td>
+        <td>90</td>
+    </tr>
+        </tbody>
+    </table>
+  
+  <script>
+  $(document).ready(function(){
+    $('#tabel-data').DataTable();
+});
+  </script>
+
+  
+</body>
+</html>
