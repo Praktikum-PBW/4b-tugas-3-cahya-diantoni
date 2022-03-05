@@ -1,0 +1,50 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 20px;
+}
+a{
+    color: aquamarine;
+    text-decoration: none;
+}
+blockquote{
+    text-align: left;
+    background-color: aqua;
+    padding: 1%;
+}
+.sub{
+    font-size: 12px;
+    text-align: right;
+}
+strong{
+    font-size: 20px;
+}
+.judul{
+    text-align: center;
+    color: aliceblue;
+    background-color: #550527;
+}
+.dafis{
+    padding: 1%;
+    color: aliceblue;
+    background-color: #688E26;
+}
+.pendahuluan{
+    padding: 1%;
+    text-align: justify;
+    background-color: #FAA613;
+}
+.sejarah{
+    padding: 1%;
+    text-align: justify;
+    background-color: #F44708;
+}
+.mengapa{
+    padding: 1%;
+    text-align: justify;
+    background-color: #A10702;
+}
