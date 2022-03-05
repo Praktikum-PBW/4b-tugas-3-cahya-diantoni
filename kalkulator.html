@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cahya Diantoni | Kalkulator</title>
+    <script src="kalkulator.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="kalkulator.css">
+</head>
+<body>
+    <div class="bubbles">
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+        <span class="four"></span>
+        <span class="five"></span>
+        <span class="six"></span>
+        <span class="seven"></span>
+        <span class="seven"></span>
+      </div>
+    <div class="container">
+        <form action="#" name="forms">
+            <input type="text" name="answer">
+            <hr>
+            <div class="buttons">
+                <input type="button" value="C" onclick="hapusSemua()">
+                <input type="button" value="<-" onclick="hapus()">
+                <input type="button" value="%" onclick="operator('%')">
+                <input type="button" value="/" onclick="operator('/')">
+            </div>
+            <div class="buttons">
+                <input type="button" value="7" onclick="operand(7)">
+                <input type="button" value="8" onclick="operand(8)">
+                <input type="button" value="9" onclick="operand(9)">
+                <input type="button" value="*" onclick="operator('*')">
+            </div>
+            <div class="buttons">
+                <input type="button" value="4" onclick="operand(4)">
+                <input type="button" value="5" onclick="operand(5)">
+                <input type="button" value="6" onclick="operand(6)">
+                <input type="button" value="-" onclick="operator('-')">
+            </div>
+            <div class="buttons">
+                <input type="button" value="1" onclick="operand(1)">
+                <input type="button" value="2" onclick="operand(2)">
+                <input type="button" value="3" onclick="operand(3)">
+                <input type="button" value="+" onclick="operator('+')">
+            </div>
+            <div class="buttons">
+                <input type="button" value="0"  onclick="operand(0)">
+                <input type="button" value="00" onclick="operand('00')">
+                <input type="button" value="." onclick="operand('.')">
+                <input type="button" value="=" onclick="hasil()">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
