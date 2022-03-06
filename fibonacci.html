@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="fibonacci.css" type="text/css" rel="stylesheet" />
+		<title>Cahya Diantoni | Fibonacci</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="jquery.min.js" type="text/javascript"></script>
+		<script src="fibonacci.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+
+		<header id="header">
+			<h1>Deret Fibonacci</h1>
+			<p>Deret Fibonacci adalah deret angka yang diperoleh dengan menjumlahkan dua angka sebelumnya</p>
+		</header>
+
+		<div id="wrapper">
+
+			<div id="form">
+				<h2>Menginput Banyak Angka</h2>
+				Masukan banyaknya angka yang ingin ditampilkan : <br />
+				<input type="text" name="input" id="finput" /> <br> <br>
+        		<input type="button" id="btnEnter" value="Enter" onclick="fibonacci_series(finput.value-1)" />
+			</div>
+
+			<div id="tabel">
+				<h2>Menampilkan Hasil</h2>
+				<table>
+					<tr>
+						<td>Menampilkan Deret Angka Fibonacci Sebanyak : </td>
+						<td id="input">X</td>
+						<td> Angka</td>
+					</tr>
+					<tr>
+						<td id="hasil"></td>
+					</tr>
+				</table>
+			</div>
+
+		</div>
+
+		<footer id="footer">
+			Cahya Diantoni | 2010631170060<br />
+		</footer>
+	</body>
+</html>
